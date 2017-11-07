@@ -113,97 +113,6 @@ td.line-code pre {
   font-family: "sans-serif"; }
 
 /**
- * Redpenny: Icons Stylesheet
- *
- * Author: Jarod Denison (@jaroslavius)
- * @2013-05-25
- * @license http://creativecommons.org/licenses/by/3.0
- *
- */
-.action-settings #header h1:before {
-  font-family: "sans-serif";
-  content: "\f013";
-  padding-right: 5px; }
-
-.controller-projects.action-show #header h1:before {
-  font-family: "sans-serif";
-  content: "\f132";
-  padding-right: 5px; }
-
-.controller-activities #header h1:before {
-  font-family: "sans-serif";
-  content: "\f135";
-  padding-right: 5px; }
-
-.controller-versions #header h1:before {
-  font-family: "sans-serif";
-  content: "\f018";
-  padding-right: 5px; }
-
-.controller-issues #header h1:before {
-  font-family: "sans-serif";
-  content: "\f145";
-  padding-right: 5px; }
-
-.controller-calendars #header h1:before {
-  font-family: "sans-serif";
-  content: "\f073";
-  padding-right: 5px; }
-
-.controller-news #header h1:before {
-  font-family: "sans-serif";
-  content: "\f06c";
-  padding-right: 5px; }
-
-.controller-documents #header h1:before {
-  font-family: "sans-serif";
-  content: "\f02d";
-  padding-right: 5px; }
-
-.controller-wiki #header h1:before {
-  font-family: "sans-serif";
-  content: "\f14b";
-  padding-right: 5px; }
-
-.controller-files #header h1:before {
-  font-family: "sans-serif";
-  content: "\f0b1";
-  padding-right: 5px; }
-
-.controller-repositories #header h1:before {
-  font-family: "sans-serif";
-  content: "\f074";
-  padding-right: 5px; }
-
-.controller-gantts #header h1:before {
-  font-family: "sans-serif";
-  content: "\f080";
-  padding-right: 5px; }
-
-.controller-welcome #header h1:before {
-  font-family: "sans-serif";
-  content: "\f015 ";
-  padding-right: 5px;
-  font-weight: 100; }
-
-.controller-users #header h1:before {
-  font-family: "sans-serif";
-  content: "\f0f0 ";
-  padding-right: 5px; }
-
-#top-menu li a.home:before {
-  font-family: "sans-serif";
-  content: "\f015 "; }
-
-#top-menu #account a.my-account:before {
-  font-family: "sans-serif";
-  content: "\f0f0 "; }
-
-#top-menu #account a.logout:before {
-  font-family: "sans-serif";
-  content: "\f08b "; }
-
-/**
  * Redpenny custom user stylesheet
  *
  * Author: Jarod Denison (@jaroslavius)
@@ -403,7 +312,7 @@ body #content > #history > .journal:first-child {
 
 /*
 .journal_message::before :has(.icon.icon-email-to) {
-        content: "\f00c";
+        
 }
 */
 .journal_message .icon.icon-email-to {
@@ -505,37 +414,37 @@ body.controller-welcome.action-index #wrapper3 #main {
  */
 .action-settings #header h1:before {
   font-family: "sans-serif";
-  content: "\f013";
+  
   padding-right: 5px; }
 
 .controller-projects.action-show #header h1:before {
   font-family: "sans-serif";
-  content: "\f132";
+  
   padding-right: 5px; }
 
 .controller-activities #header h1:before {
   font-family: "sans-serif";
-  content: "\f135";
+  
   padding-right: 5px; }
 
 .controller-versions #header h1:before {
   font-family: "sans-serif";
-  content: "\f018";
+  
   padding-right: 5px; }
 
 .controller-calendars #header h1:before {
   font-family: "sans-serif";
-  content: "\f073";
+  
   padding-right: 5px; }
 
 .controller-news #header h1:before {
   font-family: "sans-serif";
-  content: "\f06c";
+  
   padding-right: 5px; }
 
 .controller-documents #header h1:before {
   font-family: "sans-serif";
-  content: "\f02d";
+  
   padding-right: 5px; }
 
 .controller-documents #main > #content > h4 > a {
@@ -546,33 +455,33 @@ body.controller-welcome.action-index #wrapper3 #main {
 
 .controller-wiki #header h1:before {
   font-family: "sans-serif";
-  content: "\f14b";
+  
   padding-right: 5px; }
 
 .controller-files #header h1:before {
   font-family: "sans-serif";
-  content: "\f0b1";
+  
   padding-right: 5px; }
 
 .controller-repositories #header h1:before {
   font-family: "sans-serif";
-  content: "\f074";
+  
   padding-right: 5px; }
 
 .controller-gantts #header h1:before {
   font-family: "sans-serif";
-  content: "\f080";
+  
   padding-right: 5px; }
 
 .controller-welcome #header h1:before {
   font-family: "sans-serif";
-  content: "\f015 ";
+  
   padding-right: 5px;
   font-weight: 100; }
 
 .controller-users #header h1:before {
   font-family: "sans-serif";
-  content: "\f0f0 ";
+  
   padding-right: 5px; }
 
 .controller-admin #header,
@@ -825,7 +734,7 @@ body.controller-welcome.action-index #wrapper3 #main {
       background-color: #f5f5f5;
       color: #111;
       font-weight: 700; }
-
+      
 #top-menu li a {
   padding-left: 5px; }
   #top-menu li a:hover {
@@ -834,11 +743,9 @@ body.controller-welcome.action-index #wrapper3 #main {
   padding-right: 5px; }
 #top-menu #account a.my-account:before {
   font-family: "sans-serif";
-  content: "\f0f0 ";
   padding-right: 5px; }
 #top-menu #account a.logout:before {
   font-family: "sans-serif";
-  content: "\f08b ";
   padding-right: 5px; }
 
 p.breadcrumb {
@@ -1153,7 +1060,6 @@ select[multiple="multiple"] {
  */
 .controller-issues #header h1:before {
   font-family: "sans-serif";
-  content: "\f145";
   padding-right: 5px; }
 
 .controller-issues input#issue_subject {
@@ -1672,7 +1578,6 @@ body {
         font-size: 11px;
         position: absolute;
         right: 0;
-        content: "\f006";
         font-family: "sans-serif";
         padding-right: 5px;
         opacity: 0.5; }
@@ -1680,7 +1585,6 @@ body {
         background-image: none;
         position: relative; }
         #projects-index ul.projects.root li a.project.my-project:before {
-          content: "\f005";
           right: 0;
           font-family: "sans-serif";
           padding-right: 5px;
@@ -1899,42 +1803,42 @@ table.list {
   line-height: 16px;
   text-align: center; }
 .issues tr.issue > td:first-child::before {
-  content: "\f145"; }
+   }
 .issues tr > th.checkbox:first-child {
   background: #fff;
   border-color: transparent; }
 .issues tr.issue.closed {
   opacity: .8; }
 .issues tr.issue.status-3 > td:first-child::before {
-  content: "\f058";
+  
   background-color: #77AA00; }
 .issues tr.issue.msg-last td.id::before {
   font-family: "sans-serif";
   content: '\f003'; }
 .issues tr.issue.priority-4 > td:first-child:before {
-  content: "\f06d"; }
+   }
 .issues tr.issue.priority-3 > td:first-child:before {
-  content: "\f071"; }
+   }
 .issues tr.issue.status-4 > td:first-child::before {
-  content: "\f003"; }
+   }
 .issues tr.issue.tracker-1 > td:first-child::before {
-  content: "\f188"; }
+   }
 .issues tr.issue.tracker-2 > td:first-child::before {
-  content: "\f004"; }
+   }
 .issues tr.issue.tracker-3 > td:first-child::before {
-  content: "\f0a1"; }
+   }
 .issues tr.issue.tracker-4 > td:first-child::before {
-  content: "\f030"; }
+   }
 .issues tr.issue.created-by-me > td:first-child:before {
-  content: "\f0da"; }
+   }
 .issues tr.issue.assigned-to-me > td:first-child:before {
-  content: "\f101";
+  
   background-color: #A3DCA3; }
 .issues tr.issue.overdue > td:first-child:before {
-  content: "\f017";
+  
   background-color: #ff0000; }
 .issues tr.issue.parent > td:first-child:before {
-  content: "\f0fe"; }
+   }
 .issues tr.issue.closed {
   color: #a0a0a0; }
   .issues tr.issue.closed > td:first-child:before {
@@ -1946,25 +1850,25 @@ table.list {
 .issues tr.issue.status-3 > td:first-child:before {
   background-color: #DFDFDF; }
 .issues tr.issue.priority-4.created-by-me > td:first-child:before {
-  content: "\f06d";
+  
   background-color: #ff0000; }
 .issues tr.issue.priority-4.assigned-to-me > td:first-child:before {
-  content: "\f06d";
+  
   background-color: #ff0000; }
 .issues tr.issue.tracker-3.status-4.priority-3.priority-high3.created-by-me > td:first-child::before {
-  content: "\f0e0";
+  
   background-color: #00FF00; }
 .issues tr.issue.tracker-3.status-4.priority-3.priority-high3.assigned-to-me > td:first-child::before {
-  content: "\f0e0";
+  
   background-color: #00FF00; }
 .issues tr.issue.tracker-3.status-4.priority-3.priority-high3.overdue > td:first-child::before {
-  content: "\f0e0";
+  
   background-color: #00FF00; }
 .issues tr.issue.priority-3.created-by-me > td:first-child:before {
-  content: "\f071";
+  
   background-color: #FF0000; }
 .issues tr.issue.priority-3.assigned-to-me > td:first-child:before {
-  content: "\f071";
+  
   background-color: #FF0000; }
 .issues tbody tr:hover {
   background-color: #fafaf5 !important;
@@ -1972,10 +1876,10 @@ table.list {
   .issues tbody tr:hover a {
     color: #5f841d !important; }
 .issues tr.issue.tracker-3.status-4.priority-3.priority-high3 > td:first-child::before {
-  content: "\f0e0";
+  
   background-color: #00FF00; }
 .issues tr.issue.tracker-3.status-4 > td:first-child::before {
-  content: "\f0e0"; }
+   }
 .issues tr.issue.overdue.assigned-to-me > td:first-child:before {
   background-color: #FF0000; }
 
@@ -2300,7 +2204,7 @@ body #content .nodata {
       margin: 0;
       padding: 0; }
       #header #main-menu::before {
-        content: "\f0c9";
+        
         font-family: "sans-serif";
         color: #fff;
         display: block;
