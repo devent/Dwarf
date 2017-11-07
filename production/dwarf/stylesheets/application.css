@@ -6,8 +6,6 @@
  * @license http://creativecommons.org/licenses/by/3.0
  *
  */
-@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700|Source+Code+Pro");
-@import url("../../../stylesheets/application.css");
 /**
  * Dwarf: Common Settings
  *
@@ -42,9 +40,7 @@
  *
  */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url("font/fontawesome-webfont.eot?v=3.1.0");
-  src: url("font/fontawesome-webfont.eot?#iefix&v=3.1.0") format("embedded-opentype"), url("font/fontawesome-webfont.woff?v=3.1.0") format("woff"), url("font/fontawesome-webfont.ttf?v=3.1.0") format("truetype"), url("font/fontawesome-webfont.svg#fontawesomeregular?v=3.1.0") format("svg");
+  font-family: "sans-serif";
   font-weight: normal;
   font-style: normal; }
 html {
@@ -53,11 +49,11 @@ html {
   -moz-text-size-adjust: 100%; }
 
 html body, body, #wrapper {
-  font-family: "PT Sans", "Lucida Grande", arial, sans-serif;
+  font-family: "sans-serif";
   font-size: 13px; }
 
 h1, h2, h3, h4 {
-  font-family: "PT Sans", "Lucida Grande", arial, sans-serif;
+  font-family: "sans-serif";
   -webkit-font-smoothing: antialiased; }
 
 h2, h3, h4 {
@@ -99,7 +95,7 @@ p {
   line-height: 1.5em; }
 
 body {
-  font: 400 0.8375rem/1.65 "Source Code Pro", Helvetica, Arial, "Lucida Grande", verdana, sans-serif; }
+}
 
 .description {
   font-size: 0.9375rem;
@@ -113,7 +109,7 @@ code,
 .line-code,
 table.filecontent
 td.line-code pre {
-  font-family: "Source Code Pro", Helvetica, Arial, "Lucida Grande", verdana, sans-serif; }
+  font-family: "sans-serif"; }
 
 /**
  * Redpenny: Icons Stylesheet
@@ -124,86 +120,86 @@ td.line-code pre {
  *
  */
 .action-settings #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f013";
   padding-right: 5px; }
 
 .controller-projects.action-show #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f132";
   padding-right: 5px; }
 
 .controller-activities #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f135";
   padding-right: 5px; }
 
 .controller-versions #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f018";
   padding-right: 5px; }
 
 .controller-issues #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f145";
   padding-right: 5px; }
 
 .controller-calendars #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f073";
   padding-right: 5px; }
 
 .controller-news #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f06c";
   padding-right: 5px; }
 
 .controller-documents #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f02d";
   padding-right: 5px; }
 
 .controller-wiki #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f14b";
   padding-right: 5px; }
 
 .controller-files #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f0b1";
   padding-right: 5px; }
 
 .controller-repositories #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f074";
   padding-right: 5px; }
 
 .controller-gantts #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f080";
   padding-right: 5px; }
 
 .controller-welcome #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f015 ";
   padding-right: 5px;
   font-weight: 100; }
 
 .controller-users #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f0f0 ";
   padding-right: 5px; }
 
 #top-menu li a.home:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f015 "; }
 
 #top-menu #account a.my-account:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f0f0 "; }
 
 #top-menu #account a.logout:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f08b "; }
 
 /**
@@ -239,7 +235,7 @@ body div.issue {
   font-size: 13px;
   font-weight: 400;
   border-radius: 20px;
-  font-family: "Source Code Pro", Helvetica, Arial, "Lucida Grande", verdana, sans-serif;
+  font-family: "sans-serif";
   width: 20px;
   height: 20px;
   line-height: 20px;
@@ -394,7 +390,7 @@ body #content > #history > .journal:first-child {
   font-size: 16px;
   font-weight: 400;
   color: #aaa;
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   background-color: #fbfbfb;
   width: 20px;
   height: 100%;
@@ -507,37 +503,37 @@ body.controller-welcome.action-index #wrapper3 #main {
  * Header Icons
  */
 .action-settings #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f013";
   padding-right: 5px; }
 
 .controller-projects.action-show #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f132";
   padding-right: 5px; }
 
 .controller-activities #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f135";
   padding-right: 5px; }
 
 .controller-versions #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f018";
   padding-right: 5px; }
 
 .controller-calendars #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f073";
   padding-right: 5px; }
 
 .controller-news #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f06c";
   padding-right: 5px; }
 
 .controller-documents #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f02d";
   padding-right: 5px; }
 
@@ -548,33 +544,33 @@ body.controller-welcome.action-index #wrapper3 #main {
   padding: 0; }
 
 .controller-wiki #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f14b";
   padding-right: 5px; }
 
 .controller-files #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f0b1";
   padding-right: 5px; }
 
 .controller-repositories #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f074";
   padding-right: 5px; }
 
 .controller-gantts #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f080";
   padding-right: 5px; }
 
 .controller-welcome #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f015 ";
   padding-right: 5px;
   font-weight: 100; }
 
 .controller-users #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f0f0 ";
   padding-right: 5px; }
 
@@ -715,7 +711,7 @@ body.controller-welcome.action-index #wrapper3 #main {
     line-height: 32px;
     margin-right: 4px; }
   #top-menu li a {
-    font-family: "PT Sans", "Lucida Grande", arial, sans-serif;
+    font-family: "sans-serif";
     font-size: 11px;
     color: #ddd;
     font-weight: 600;
@@ -814,7 +810,7 @@ body.controller-welcome.action-index #wrapper3 #main {
   #main-menu > ul {
     min-height: 29px; }
   #main-menu li a {
-    font-family: "PT Sans", "Lucida Grande", arial, sans-serif;
+    font-family: "sans-serif";
     font-weight: 400;
     padding: 4px 8px 4px;
     font-size: 13px; }
@@ -836,11 +832,11 @@ body.controller-welcome.action-index #wrapper3 #main {
 #top-menu li a::before {
   padding-right: 5px; }
 #top-menu #account a.my-account:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f0f0 ";
   padding-right: 5px; }
 #top-menu #account a.logout:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f08b ";
   padding-right: 5px; }
 
@@ -880,18 +876,18 @@ html > body #content {
 
 .autoscroll table.filecontent th.line-num {
   padding-right: 7px;
-  font-family: "PT Sans", "Lucida Grande", arial, sans-serif; }
+  font-family: "sans-serif"; }
 
 body .contextual {
   font-size: .75em;
   margin: 0;
   padding: 1.2rem;
-  font-family: "PT Sans", "Lucida Grande", arial, sans-serif; }
+  font-family: "sans-serif"; }
 body #content > .contextual {
   font-size: .9em;
   margin: 0;
   padding: 1.9rem 1.2rem;
-  font-family: "PT Sans", "Lucida Grande", arial, sans-serif; }
+  font-family: "sans-serif"; }
 body #context-menu {
   border-width: 0;
   border-radius: 0;
@@ -968,7 +964,7 @@ input#issue_subject {
   width: 90%; }
 
 textarea.wiki-edit {
-  font-family: Cambria,Verdana,Serif;
+  font-family: "sans-serif";
   font-size: larger; }
 
 input[type="submit"], button, a[accesskey="r"], #attach_files_link {
@@ -977,7 +973,7 @@ input[type="submit"], button, a[accesskey="r"], #attach_files_link {
   color: #333;
   cursor: pointer;
   display: inline-block;
-  font-family: Arial,sans-serif;
+  font-family: "sans-serif";
   font-size: 14px;
   font-variant: normal;
   font-weight: normal;
@@ -1155,7 +1151,7 @@ select[multiple="multiple"] {
  *
  */
 .controller-issues #header h1:before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: "\f145";
   padding-right: 5px; }
 
@@ -1676,7 +1672,7 @@ body {
         position: absolute;
         right: 0;
         content: "\f006";
-        font-family: Fontawesome;
+        font-family: "sans-serif";
         padding-right: 5px;
         opacity: 0.5; }
       #projects-index ul.projects.root li a.project.my-project {
@@ -1685,7 +1681,7 @@ body {
         #projects-index ul.projects.root li a.project.my-project:before {
           content: "\f005";
           right: 0;
-          font-family: Fontawesome;
+          font-family: "sans-serif";
           padding-right: 5px;
           opacity: 0.5; }
   #projects-index ul.projects.root .description {
@@ -1888,7 +1884,7 @@ table.list {
   border-color: transparent; }
 .issues tr.issue > td:first-child:before {
   display: inline-block;
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   font-size: 8px;
   opacity: 0.5;
   font-style: normal;
@@ -1912,7 +1908,7 @@ table.list {
   content: "\f058";
   background-color: #77AA00; }
 .issues tr.issue.msg-last td.id::before {
-  font-family: Fontawesome;
+  font-family: "sans-serif";
   content: '\f003'; }
 .issues tr.issue.priority-4 > td:first-child:before {
   content: "\f06d"; }
@@ -2023,7 +2019,7 @@ tr.open span.expander {
     background: url(../images/splash/splash2-overlay.jpg) no-repeat center;
     text-align: left;
     width: 512px;
-    font-family: lucida grande,verdana;
+    font-family: "sans-serif";
     font-size: 14px;
     border-radius: 2px;
     border: 1px solid;
@@ -2053,7 +2049,7 @@ tr.open span.expander {
           .controller-account.action-login #login-form form table tr:nth-child(4) td:first-child a {
             display: block;
             text-align: right;
-            font-family: "PT Sans", "Lucida Grande", arial, sans-serif;
+            font-family: "sans-serif";
             font-size: 18px;
             font-weight: 600; }
       .controller-account.action-login #login-form form table tr td {
@@ -2063,7 +2059,7 @@ tr.open span.expander {
         .controller-account.action-login #login-form form table tr td label {
           text-align: left;
           color: #fff;
-          font-family: "PT Sans", "Lucida Grande", arial, sans-serif;
+          font-family: "sans-serif";
           font-size: 18px; }
         .controller-account.action-login #login-form form table tr td input#username, .controller-account.action-login #login-form form table tr td input#password {
           width: 100%;
@@ -2085,7 +2081,7 @@ tr.open span.expander {
           padding: 8px 16px;
           color: #fff;
           font-weight: 600;
-          font-family: "PT Sans", "Lucida Grande", arial, sans-serif; }
+          font-family: "sans-serif"; }
     .controller-account.action-login #login-form form table tbody {
       display: block; }
 
@@ -2304,7 +2300,7 @@ body #content .nodata {
       padding: 0; }
       #header #main-menu::before {
         content: "\f0c9";
-        font-family: Fontawesome;
+        font-family: "sans-serif";
         color: #fff;
         display: block;
         width: 48px;
@@ -2621,7 +2617,7 @@ This file is generated by `grunt build`, do not edit it by hand.
     background: white url("../images/chosen-sprite.png") no-repeat 100% -20px;
     background: url("../images/chosen-sprite.png") no-repeat 100% -20px;
     font-size: 1em;
-    font-family: sans-serif;
+    font-family: "sans-serif";
     line-height: normal;
     border-radius: 0; }
 .chosen-container-single .chosen-drop {
@@ -2725,7 +2721,7 @@ This file is generated by `grunt build`, do not edit it by hand.
         box-shadow: none;
         color: #999;
         font-size: 100%;
-        font-family: sans-serif;
+        font-family: "sans-serif";
         line-height: normal;
         border-radius: 0; }
     .chosen-container-multi .chosen-choices li.search-choice {
