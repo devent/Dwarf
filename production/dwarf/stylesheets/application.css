@@ -81,10 +81,10 @@ h2 {
 
 a:link,
 a:visited {
-  color: #6ba0c2; }
+  color: #5f841d; }
 
 a:hover, a:active {
-  color: #7ebec2;
+  color: #5f841d;
   text-decoration: underline; }
 
 p {
@@ -634,7 +634,7 @@ body.controller-welcome.action-index #wrapper3 #main {
   margin: 0; }
 
 #header {
-  background-color: #1b1b1b;
+  background-color: #628db6;
   border-color: #252525;
   padding: 0; }
   #header > h1 {
@@ -657,7 +657,7 @@ body.controller-welcome.action-index #wrapper3 #main {
       float: left; }
     #header #quick-search label {
       padding: 0px 10px;
-      background-color: #282828;
+      background-color: #3e5b76;
       margin: 1px 0 0;
       display: inline-block;
       line-height: 25px;
@@ -665,7 +665,7 @@ body.controller-welcome.action-index #wrapper3 #main {
     #header #quick-search input {
       width: 40px;
       border: 1px solid #151515;
-      background: #282828;
+      background: #3e5b76;
       color: #ddd;
       border: 0;
       height: 25px;
@@ -699,7 +699,7 @@ body.controller-welcome.action-index #wrapper3 #main {
     margin: 0 24px; }
 
 #top-menu {
-  background-color: #000;
+  background-color: #3e5b76;
   font-size: 10px;
   position: relative;
   padding: 0;
@@ -816,7 +816,7 @@ body.controller-welcome.action-index #wrapper3 #main {
     padding: 4px 8px 4px;
     font-size: 13px; }
     #main-menu li a:hover {
-      background: #034599;
+      background: #3e5b76;
       text-decoration: none; }
     #main-menu li a.selected {
       padding-left: 16px;
@@ -1968,9 +1968,9 @@ table.list {
   background-color: #FF0000; }
 .issues tbody tr:hover {
   background-color: #fafaf5 !important;
-  color: #7f8c8d !important; }
+  color: #5f841d !important; }
   .issues tbody tr:hover a {
-    color: #7f8c8d !important; }
+    color: #5f841d !important; }
 .issues tr.issue.tracker-3.status-4.priority-3.priority-high3 > td:first-child::before {
   content: "\f0e0";
   background-color: #00FF00; }
@@ -2471,7 +2471,7 @@ body #content .nodata {
           padding: 4px 16px 4px; }
           #header #main-menu ul li a.selected, #header #main-menu ul li a:hover {
             color: #fff;
-            background-color: #010101;
+            background-color: #3e5b76;
             border-radius: 2px; }
     #header:after {
       content: 'Themed by Jared Denisov';
